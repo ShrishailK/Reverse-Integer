@@ -7,10 +7,10 @@ class Solution(object):
         x_str = str(abs(x))
         mirror = int(x_str[::-1])
         
-        if mirror < 2**31-1:
+        if mir < 2**31-1:
             if x<=0:
-                return mirror*-1
+                return mir*-1
             else:
-                return mirror
+                return mir
         else:
             return 0
